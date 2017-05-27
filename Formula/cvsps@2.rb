@@ -1,5 +1,3 @@
-require "formula"
-
 class CvspsAT2 < Formula
   homepage "https://web.archive.org/web/20160127055537/http://www.cobite.com/cvsps/"
   url "https://mirrors.ocf.berkeley.edu/debian/pool/main/c/cvsps/cvsps_2.1.orig.tar.gz"

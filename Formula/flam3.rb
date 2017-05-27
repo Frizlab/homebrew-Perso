@@ -1,5 +1,3 @@
-require "formula"
-
 class Flam3 < Formula
   homepage "https://github.com/scottdraves/flam3"
   url "https://github.com/scottdraves/flam3/archive/v3.1.1.tar.gz"
@@ -16,6 +14,6 @@ class Flam3 < Formula
   end
 
   test do
-    system "test -x #{bin}/flam3-render"
+    system "test", "-x", "#{bin}/flam3-render"
   end
 end

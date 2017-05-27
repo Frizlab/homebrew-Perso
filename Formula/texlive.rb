@@ -1,5 +1,3 @@
-require "formula"
-
 class Texlive < Formula
   homepage "https://www.tug.org/texlive/"
   url "http://private.frostland.fr/~frizlab/texlive-v64248540bee3cb20519337ae707ff8d6c191ac74.tar.bz2"
