@@ -2,7 +2,7 @@ class Texlive < Formula
   homepage "https://www.tug.org/texlive/"
   url "http://private.frostland.fr/~frizlab/texlive-v64248540bee3cb20519337ae707ff8d6c191ac74.tar.bz2"
   version "64248540bee3cb20519337ae707ff8d6c191ac74"
-  sha1 "7b286c02194482d99accfc8717d84e1c79df13ff"
+  sha256 "88030715bd5112a6e3354eb1b8bfb7095b84ff85ef7c7072e488202ac563d7ee"
 
   depends_on "autoconf" => :build
   depends_on "automake" => :build
