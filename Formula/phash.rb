@@ -23,11 +23,6 @@ class Phash < Formula
     depends_on "mpg123"
   end
 
-  fails_with :clang do
-    build 318
-    cause "configure: WARNING: CImg.h: present but cannot be compiled"
-  end
-
   def install
     inreplace "src/ph_fft.h", "/usr/include/complex.h", "#{MacOS.sdk_path}/usr/include/complex.h"
 
