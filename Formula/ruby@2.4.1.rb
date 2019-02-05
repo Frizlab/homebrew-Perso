@@ -19,12 +19,12 @@ class RubyAT241 < Formula
   option "with-doc", "Install documentation"
 
   depends_on "pkg-config" => :build
+  depends_on "libyaml"
+  depends_on "openssl"
   depends_on "readline" => :recommended
   depends_on "gdbm" => :optional
   depends_on "gmp" => :optional
   depends_on "libffi" => :optional
-  depends_on "libyaml"
-  depends_on "openssl"
 
   def install
     # otherwise `gem` command breaks
