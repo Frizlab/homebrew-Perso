@@ -1,5 +1,5 @@
 class Texlive < Formula
-  desc "Using the TeX document production system easily."
+  desc "Using the TeX document production system easily"
   homepage "https://www.tug.org/texlive/"
   url "http://private.frostland.fr/~frizlab/texlive-v64248540bee3cb20519337ae707ff8d6c191ac74.tar.bz2"
   version "64248540bee3cb20519337ae707ff8d6c191ac74"
@@ -43,12 +43,12 @@ class Texlive < Formula
 
     bd = "bin"
     d = Dir.glob("#{bd}/*")
-    d.each do|path|
-      if File.symlink?(path)
-        orig = File.readlink(path)
-        orig.gsub!(/^((\.\.\/)*)\.\.\/\.\.\//, '\1../share/')
-        ln "-sf", orig, path
-      end
+    d.each do |path|
+      next unless File.symlink?(path)
+
+      orig = File.readlink(path)
+      orig.gsub!(%r{^((\.\.\/)*)\.\.\/\.\.\/}, '\1../share/')
+      ln "-sf", orig, path
     end
   end
 

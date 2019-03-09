@@ -6,8 +6,8 @@
 
 class Phash < Formula
   desc "Perceptual hash library"
-  homepage "http://www.phash.org/"
-  url "http://phash.org/releases/pHash-0.9.6.tar.gz"
+  homepage "https://www.phash.org/"
+  url "https://phash.org/releases/pHash-0.9.6.tar.gz"
   sha256 "3c8258a014f9c2491fb1153010984606805638a45d00498864968a9a30102935"
 
   option "without-image-hash", "Disable image hash"
