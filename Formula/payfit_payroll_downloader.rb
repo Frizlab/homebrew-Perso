@@ -1,7 +1,7 @@
 class PayfitPayrollDownloader < Formula
   desc "Download PayFit Payrolls automatically"
   homepage "https://github.com/Frizlab/PayFitPayrollDownloader"
-  url "https://github.com/Frizlab/PayFitPayrollDownloader.git", :tag => "1.0"
+  url "https://github.com/Frizlab/PayFitPayrollDownloader.git", :tag => "1.1"
 
   depends_on :xcode => ["10.2", :build]
 
