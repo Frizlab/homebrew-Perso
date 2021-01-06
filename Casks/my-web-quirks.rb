@@ -1,8 +1,8 @@
 cask 'my-web-quirks' do
-  version '1.2'
-  sha256 'ff6a73d99e1f5e4d97a6f46e1cdaa4efd4c4d4d5c53b82c2a6efcf2b4e3e8b46'
+  version '1.2.1'
+  sha256 '9205f52a39151c0c13f03fbdaadf64a1b7198d8c0a9728c59fbb641a7b7066f0'
 
-  url 'https://gitlab.com/Frizlab/My-Web-Quirks/uploads/83a454dc0407faab11f0ff96f733614a/My_Web_Quirks.zip'
+  url 'https://gitlab.com/Frizlab/My-Web-Quirks/uploads/6dfd593560fdbe7d59b14c420e9e7612/My_Web_Quirks.zip'
   name 'My Web Quirks'
   homepage 'https://gitlab.com/Frizlab/My-Web-Quirks'
 
