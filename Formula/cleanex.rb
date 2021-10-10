@@ -1,7 +1,7 @@
 class Cleanex < Formula
   desc "Visualise your files in a tree map"
   homepage "https://www.perdu.com"
-  head "file:///Users/frizlab/Documents/Never%20Ending/Local.nosync/git/cleanex.git", :using => :git
+  head "file:///Users/frizlab/Documents/Ω%20Local.nosync/git-local-remotes/cleanex.git", :using => :git
 
   def install
     # I would love to be able to copy "." and link to cleanex/cleanex but I did
