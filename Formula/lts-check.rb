@@ -1,7 +1,7 @@
 class LtsCheck < Formula
   desc "Check Long Term Storage Files"
   homepage "https://github.com/Frizlab/lts-check"
-  url "https://github.com/Frizlab/lts-check.git", using: :git, tag: "1.0.5", revision: "af3456e239929e5a50276e999ff67be108ff34f6"
+  url "https://github.com/Frizlab/lts-check.git", using: :git, tag: "1.0.6", revision: "51c76616d377848639eb7a2f0724951f329b4530"
   head "https://github.com/Frizlab/lts-check.git", using: :git, branch: "develop"
 
   depends_on xcode: ["13.4", :build]
