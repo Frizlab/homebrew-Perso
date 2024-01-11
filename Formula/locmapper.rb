@@ -1,10 +1,10 @@
 class Locmapper < Formula
   desc "Utility for working w/ LocMapper (*.lcm) files"
   homepage "https://github.com/Frizlab/LocMapper"
-  url "https://github.com/Frizlab/LocMapper.git", using: :git, tag: "1.3.7", revision: "225668c720d5aac8d016a3fd6dc0b25af880f6b1"
+  url "https://github.com/Frizlab/LocMapper.git", using: :git, tag: "1.3.8", revision: "eea58edde2d3638dc14304370a5bcd611e922b51"
   head "https://github.com/Frizlab/LocMapper.git", using: :git, branch: "develop"
 
-  depends_on xcode: ["14.1", :build]
+  depends_on xcode: ["15.0", :build]
 
   def install
     system "swift", "build", "--disable-sandbox", "--configuration", "release", "--disable-automatic-resolution"
