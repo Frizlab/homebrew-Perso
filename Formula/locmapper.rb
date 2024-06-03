@@ -1,7 +1,7 @@
 class Locmapper < Formula
   desc "Utility for working w/ LocMapper (*.lcm) files"
   homepage "https://github.com/Frizlab/LocMapper"
-  url "https://github.com/Frizlab/LocMapper.git", using: :git, tag: "1.3.8", revision: "eea58edde2d3638dc14304370a5bcd611e922b51"
+  url "https://github.com/Frizlab/LocMapper.git", using: :git, tag: "1.4.0", revision: "60412d3390e5acd99fede42dd49e839e66133c2c"
   head "https://github.com/Frizlab/LocMapper.git", using: :git, branch: "develop"
 
   depends_on xcode: ["15.0", :build]
